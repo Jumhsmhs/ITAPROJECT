@@ -11,8 +11,15 @@ foreach ($result as $row) {
     $docData[$row['id']] = $row;
 }
 
-$budget_year = isset($_GET['year']) ? $_GET['year'] : '2569'; // ปีเริ่มต้นหากไม่มีค่า
-$budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '2569';
+// $budget_year = isset($_GET['year']) ? $_GET['year'] : '2569'; // ปีเริ่มต้นหากไม่มีค่า
+// $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '2569';
+
+if (isset($_GET['year'])) {
+    $_SESSION['budget_year'] = $_GET['year'];
+    header("Location: " . strtok($_SERVER["REQUEST_URI"], '?'));
+    exit();
+}
+$budget_year2 = $_SESSION['budget_year'] ?? '2569';
 
 ?>
 
@@ -179,7 +186,7 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
                                 </tr>
                                 <tr>
                                     <td class="mitr-light text-dark" style="font-family: 'Mitr', sans-serif; font-weight: 400;" colspan="3">
-                                        2. รายงานผลการกำกับติดตามการเผยแพร่ข้อมูลต่อสาธารณะผ่านเว็บไซต์ของหน่วยงานในปีที่ผ่านมา <?= htmlspecialchars($budget_year) ?>
+                                        2. รายงานผลการกำกับติดตามการเผยแพร่ข้อมูลต่อสาธารณะผ่านเว็บไซต์ของหน่วยงานในปีที่ผ่านมา <?= htmlspecialchars($_SESSION['budget_year'] ?? '2569') ?>
                                     </td>
                                 </tr>
                                 <tr>

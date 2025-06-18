@@ -2,12 +2,6 @@
 session_start();
 require_once 'condb.php';
 
-// สมมุติว่า $pdo เชื่อมต่อแล้ว
-$stmt = $pdo->prepare("SELECT title, due_date FROM events WHERE id = 1"); // เลือกเหตุการณ์เดียว
-$stmt->execute();
-$event = $stmt->fetch(PDO::FETCH_ASSOC);
-$dueDate = $event['due_date']; // เช่น "2025-05-15"
-
 ?>
 
 <!DOCTYPE html>
@@ -35,12 +29,6 @@ $dueDate = $event['due_date']; // เช่น "2025-05-15"
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <style>
-        /* body {
-            font-family: 'Segoe UI', sans-serif;
-            background: #f4f4f4;
-            text-align: center;
-            padding: 50px;
-        } */
 
         .countdown-container {
             background: white;

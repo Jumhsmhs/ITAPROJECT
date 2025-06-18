@@ -49,7 +49,7 @@ $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2
                 <h6 class="dropdown-header" style="font-weight:400;">
                     แยกตามปีงบประมาณ
                 </h6>
-                <a class="dropdown-item d-flex align-items-center" href="tables1.php?year=2569">
+                <a class="dropdown-item d-flex align-items-center" href="?year=2569">
                     <div class="mr-3">
                         <div class="icon-circle bg-primary">
                             <i class="fas fa-layer-group"></i>
@@ -59,7 +59,7 @@ $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2
                         <span class="font-weight-Medium">MOIT 2569</span>
                     </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="tables1.php?year=2570">
+                <a class="dropdown-item d-flex align-items-center" href="?year=2570">
                     <div class="mr-3">
                         <div class="icon-circle bg-info">
                             <i class="fas fa-layer-group"></i>
@@ -69,7 +69,7 @@ $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2
                         <span class="font-weight-Medium">MOIT 2570</span>
                     </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="tables1.php?year=2571">
+                <a class="dropdown-item d-flex align-items-center" href="?year=2571">
                     <div class="mr-3">
                         <div class="icon-circle bg-success">
                             <i class="fas fa-layer-group"></i>
@@ -79,7 +79,7 @@ $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2
                         <span class="font-weight-Medium">MOIT 2571</span>
                     </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="tables1.php?year=2572">
+                <a class="dropdown-item d-flex align-items-center" href="?year=2572">
                     <div class="mr-3">
                         <div class="icon-circle bg-warning">
                             <i class="fas fa-layer-group"></i>
@@ -89,7 +89,7 @@ $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2
                         <span class="font-weight-Medium">MOIT 2572</span>
                     </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="tables1.php?year=2573">
+                <a class="dropdown-item d-flex align-items-center" href="?year=2573">
                     <div class="mr-3">
                         <div class="icon-circle bg-danger">
                             <i class="fas fa-layer-group"></i>
