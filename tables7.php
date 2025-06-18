@@ -65,9 +65,9 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4 m-4">
-                        <h1 class="h3 mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 300;">
+                         <h3 class="mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 400;">
                             MOIT7 หน่วยงานมีการรายงานการประเมินผลการปฏิบัติราชการของบุคลากรในหน่วยงาน และเปิดเผยผลการปฏิบัติราชการ ระดับดีเด่น และระดับดีมาก ในที่เปิดเผยให้ทราบ ของปีงบประมาณ พ.ศ. 2567 และปีงบประมาณ พ.ศ. 2568
-                        </h1>
+                        </h3>
                     </div>
 
                     <!-- Content Row -->

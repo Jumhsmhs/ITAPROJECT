@@ -65,9 +65,9 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4 m-4">
-                        <h1 class="h3 mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 300;">
+                        <h3 class="mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 400;">
                             MOIT14 หน่วยงานมีแนวทางปฏิบัติเกี่ยวกับการใช้ทรัพย์สินของราชการ และมีขั้นตอนการขออนุญาตเพื่อยืมทรัพย์สินของราชการไปใช้ปฏิบัติในหน่วยงานที่ถูกต้อง
-                        </h1>
+                        </h3>
                     </div>
 
                     <!-- Content Row -->

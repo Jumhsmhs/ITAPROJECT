@@ -55,17 +55,17 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center mt-5">
-                                    <h1 class="h4 text-gray-900 mb-4">Welcome ITA 2569</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Welcome! ITA Ban Sang</h1>
                                 </div>
                                 <form class="user mt-5" id="loginForm" method="POST" action="login_db.php">
                                     <div class="form-group">
                                         <input type="text" class="form-control form-control-user"
                                             id="username" name="username"
-                                            placeholder="Enter Username Address...">
+                                            placeholder="Enter Username">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control form-control-user"
-                                        id="password" name="password" placeholder="Password">
+                                        id="password" name="password" placeholder="Enter Password">
                                     </div>
                                     <div class="form-group">
                                         <div class="custom-control custom-checkbox small">

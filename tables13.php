@@ -65,8 +65,8 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4 m-4">
-                        <h1 class="h3 mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 300;">
-                            MOIT13 หน่วยงานประเมินการดำเนินการตามแนวทางปฏิบัติของหน่วยงาน ในปีงบประมาณ พ.ศ. 2567-2568 ตามประกาศกระทรวงสาธารณสุข เรื่อง เกณฑ์จริยธรรมการจัดซื้อจัดหา และการส่งเสริมการขายยาและเวชภัณฑ์ที่มิใช่ยาของกระทรวงสาธารณสุข พ.ศ. 2564 </h1>
+                        <h3 class="mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 400;">
+                            MOIT13 หน่วยงานประเมินการดำเนินการตามแนวทางปฏิบัติของหน่วยงาน ในปีงบประมาณ พ.ศ. 2567-2568 ตามประกาศกระทรวงสาธารณสุข เรื่อง เกณฑ์จริยธรรมการจัดซื้อจัดหา และการส่งเสริมการขายยาและเวชภัณฑ์ที่มิใช่ยาของกระทรวงสาธารณสุข พ.ศ. 2564 </h3>
                     </div>
 
                     <!-- Content Row -->

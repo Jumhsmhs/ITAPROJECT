@@ -65,8 +65,9 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4 m-4">
-                        <h1 class="h3 mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 300;">
-                            MOIT4 หน่วยงานมีการวางระบบการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ ประจำปีงบประมาณ พ.ศ. 2568 </h1>
+                        <h3 class="mb-0 text-gray-800 mitr-light" style="font-family: 'Mitr', sans-serif; font-weight: 400;">
+                            MOIT4 หน่วยงานมีการวางระบบการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ ประจำปีงบประมาณ พ.ศ. 2568
+                        </h3>
                     </div>
 
                     <!-- Content Row -->
@@ -109,7 +110,7 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
                                     <td>
                                         2. มีหนังสือจัดสรรงบประมาณของหน่วยงาน ประจำปีงบประมาณ พ.ศ. 2568
                                     </td>
-                                   <?php
+                                    <?php
                                     $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2569';
                                     $target_id = $selected_year . '0049';
                                     ?>
@@ -130,7 +131,7 @@ $budget_year2 = isset($_SESSION['budget_year2']) ? $_SESSION['budget_year2'] : '
                                     <td>
                                         3. มีแผนการจัดซื้อจัดจ้างและการจัดหาพัสดุของหน่วยงาน ประจำปีงบประมาณ พ.ศ. 2568 (งบดำเนินการและงบลงทุน)
                                     </td>
-                                   <?php
+                                    <?php
                                     $selected_year = isset($_SESSION['budget_year']) ? $_SESSION['budget_year'] : '2569';
                                     $target_id = $selected_year . '0050';
                                     ?>
